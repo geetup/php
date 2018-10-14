@@ -12,12 +12,12 @@
         用户名：<input type="text" name="username"><br/>
         密码：<input type="password" name="pwd"><br/>
 <!--        用name分组，后台接受分组的名字 value是辨别得到所选的内容（单选）-->
-        性别：<input type="radio" name="sex" value="m">男<br/>
+        性别：<input type="radio" name="sex" value="m">男
             <input type="radio" name="sex" value="f">女<br/>
         爱好：<input type="checkbox" name="hobby[]" value="跑步">跑步
         <input type="checkbox" name="hobby[]" value="篮球">篮球
         <input type="checkbox" name="hobby[]" value="足球">足球
-        <input type="checkbox" name="hobby[]" value="羽毛球">羽毛球
+        <input type="checkbox" name="hobby[]" value="羽毛球">羽毛球<br/>
         <select name="school">
             <option value="黑大">黑大
             <option value="农大">农大
